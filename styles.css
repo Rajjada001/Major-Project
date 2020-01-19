@@ -1,0 +1,65 @@
+.body{
+    margin-top: 68px;
+}
+
+  h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+.logo{
+
+    float:left;
+    cursor: pointer;
+}
+.signup{
+
+    float: right;
+    cursor: pointer;
+}
+.signup:hover{
+    text-decoration: underline;
+}
+.headings{
+
+    margin-top: 130px;
+    padding: 10px;
+    font-weight: 300;
+}
+.headings h1{
+    color:currentColor;
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+.buttons {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.buttons .button1 p, .button2 p{
+    font-weight: 600;
+}
+
+.button1 a,.button2 a{
+    background-color: rgba(3, 99, 11, 0.774);
+    font-size: 16px;
+    padding: 10px 20px 10px;
+    border: none;
+    border-radius:2px;
+    color: #fff;
+    font-weight: 200;
+    display: inline-block;
+}
+
+.button1 a:hover,.button2 a:hover{
+    background-color: rgba(7, 160, 19, 0.774);
+    text-decoration: none;
+    color: #f3f3f3;
+
+}
+
+footer
+{
+    margin: 150px 0px 50px auto ;
+    font: 1em sans-serif;
+}
