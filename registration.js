@@ -1,5 +1,5 @@
 console.log('Hey!');
-
+window.history.forward();
 function Validate_Register()
 {
     var email   = document.getElementById('email');

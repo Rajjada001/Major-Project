@@ -60,7 +60,7 @@ if (isset($_POST['reg_user'])) {
     
       $_SESSION['username'] = $username;
       $_SESSION['email'] = $email;
-  	$_SESSION['success'] = "You are now logged in";
+  	$_SESSION['success'] = "";
   	header('location: index.php');
   }
 }
@@ -78,7 +78,7 @@ if (isset($_POST['login_user'])) {
         if (mysqli_num_rows($results) == 1) {
           $_SESSION['username'] = $username;
           $_SESSION['email'] = $email;
-          $_SESSION['success'] = "You are now logged in";
+          $_SESSION['success'] = "";
           header('location: index.php');
         }else {
             array_push($errors, "Wrong email/password combination");

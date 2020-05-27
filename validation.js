@@ -1,4 +1,6 @@
 console.log('Hey');
+
+window.history.forward();
 function Validate_Login(){
 console.log('Hey');
 var email = document.form.email.value;
